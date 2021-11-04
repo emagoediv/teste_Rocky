@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  border: solid 1px red;
 }
 
 body, html{
@@ -398,6 +399,7 @@ footer .localization i{
 
   .contentNavBar ul{
     display:none;
+    margin-top: 5%;
   }
 
 
@@ -535,7 +537,7 @@ footer .localization i{
     flex-direction: column;
     align-content: center;
     align-items: center;
-    text-align: center;
+    text-align: center; 
   }
 
   #f1{
@@ -591,7 +593,7 @@ footer .localization i{
   #diferenciais p{
     max-width:60%;
     margin-left:20%;
-    margin-top: 40%;
+    margin-top: 20%;
     margin-bottom: 5%;
   }
 
@@ -616,6 +618,47 @@ footer .localization i{
     margin: 0;
     margin-left: -20px;
   }
+
+
+  #btn-mobile #ct{
+    margin-left: -12px;
+  }
+
+  #f1{
+    margin-left: 25px;
+    max-width: 85%;
+    max-height: 70%;  
+  }
+
+  #f2{
+    max-width: 85%;
+    max-height: 70%;
+  }
+
+  #f3{
+    max-width: 85%;
+    max-height: 70%;
+  }
+
+  #f4{
+    max-width: 60%;
+    max-height: 100%;
+    margin: 0; 
+  }
+  #f5{
+    max-width: 60%;
+    max-height: 100%;
+    margin: 0; 
+    margin-top: 15%; 
+
+  }
+  #f6{
+    max-width: 60%;
+    max-height: 100%;
+    margin: 0;
+    margin-top: 15%; 
+
+  }
   
   #servicos p{
     max-width:80%;
@@ -636,7 +679,7 @@ footer .localization i{
 
   #diferenciais p{
     max-width:81%;
-    margin-left:13%;
+    margin-left:10%;
     margin-top: 0%;
     margin-bottom: 0%;
   }
