@@ -1,7 +1,6 @@
 *{
   margin: 0;
   padding: 0;
-  border: solid 1px red;
 }
 
 body, html{
@@ -610,6 +609,14 @@ footer .localization i{
 
 @media screen and (max-width: 638px){
 
+  .titulo p{
+    margin-top: 20vh;
+  }
+
+  .content-sobre{
+    margin-top: 50vh;
+  }
+
   .coluna-services{
     display: flex;
     align-content: center;
@@ -628,16 +635,19 @@ footer .localization i{
     margin-left: 25px;
     max-width: 85%;
     max-height: 70%;  
+    margin-top: 3%;
   }
 
   #f2{
     max-width: 85%;
     max-height: 70%;
+    margin-top: 3%;
   }
 
   #f3{
     max-width: 85%;
     max-height: 70%;
+    margin-top: 3%;
   }
 
   #f4{
