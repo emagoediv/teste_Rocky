@@ -1,10 +1,17 @@
 // pegando elementos
 const btnMobile = document.getElementById('btn-mobile')
 const btnVoltarTopo = document.getElementById('l-top')
+const nav = document.getElementById('nav') 
+
 
 // escutando evento de clicks
+    //aparece menu
 btnMobile.addEventListener('click', aparecerMenu)
+    //efeito de rolagem btn voltar
 btnVoltarTopo.addEventListener('click',rolar)
+    //retirar menu ao rolar a pagina ou a arrastar tela
+document.addEventListener('scroll', removerMenuAoRolar)
+document.addEventListener('touchmove', removerMenuAoRolar)
 
 // mudar imagens conforme tamanho da tela a qual o site for carregado
 
@@ -41,6 +48,10 @@ window.scroll({
 
 // adiciona ou remove class que faz aparecer o menu ul no css
 function aparecerMenu(){
-  const nav = document.getElementById('nav') 
   nav.classList.toggle('active')
+}
+
+//remove class
+function removerMenuAoRolar(){
+  nav.classList.remove('active')
 }
